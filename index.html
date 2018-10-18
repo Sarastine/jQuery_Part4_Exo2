@@ -1,0 +1,50 @@
+<!--Demander à l'aide d'un formulaire les 5 dernières notes d'un élève.
+
+Calculer sa moyenne et déterminer son appréciation.
+
+    Si la moyenne de l'élève est supérieure ou égale à 0 et inférieure à 10, il aura comme appréciation : "En dessous de la moyenne".
+    Si la moyenne de l'élève est supérieure ou égale à 10 et inférieure à 13, il aura comme appréciation : "Moyen".
+    Si la moyenne de l'élève est supérieure ou égale à 13 et inférieure à 16, il aura comme appréciation : "Bien".
+    Si la moyenne de l'élève est supérieure ou égale à 16 et inférieure à 20, il aura comme appréciation : "Très bien".
+    Si la moyenne de l'élève est égale à 20, il aura comme appréciation : "Excellent".
+
+Afficher la moyenne et l'appréciation de l'élève.-->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/Ex2jQ.css">
+		<title>jQ Part 4 Exercice 2</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h1>jQuerry</h1>
+			<h2>Partie 4 - Exercice 2</h2>
+			<form>
+				<div class="row">
+					<div class="col">
+						<label for="note1">Note 1</label><input type="number" name="note1" id="note1">
+					</div>
+					<div class="col">
+						<label for="note2">Note 2</label><input type="number" name="note2" id="note2">
+					</div>
+					<div class="col">
+						<label for="note3">Note 3</label><input type="number" name="note3" id="note3">
+					</div>
+					<div class="col">
+						<label for="note4">Note 4</label><input type="number" name="note4" id="note4">
+					</div>
+					<div class="col">
+						<label for="note5">Note 5</label><input type="number" name="note5" id="note5">
+					</div>
+				</div>
+			</form>
+			<div id="message">Rentrez vos notes</div>
+			<div class="row">
+				<div id="noteButton" class="button col-xs-12 offset-sm-2 col-sm-8 offset-md-4 col-md-4">Envoyer</div>
+			</div>
+		<script src="assets/js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="assets/js/Ex2jQ.js"></script>
+	</body>
+</html>
